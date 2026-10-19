@@ -148,7 +148,7 @@ export default function App() {
                 <div className="phone-side side-left"></div><div className="phone-side side-right"></div>
                 <div className="phone-screen" style={{ background: image ? "#111" : bg.value }}>
                   {image ? <img className="screen-image" src={image} alt="Vista previa de pantalla cargada"/> : <>{softShapes && <><div className="orb orb-one"></div><div className="orb orb-two"></div><div className="orb orb-three"></div></>}{showText && <div className="screen-copy"><span>{headline || "Tu idea. Tu estilo."}</span><small>{subline || "Diseñado para destacar."}</small></div>}</>}
-                  {showStatus && <div className={"screen-status " + (bg.name === "Medianoche" || image ? "status-light" : "")}><span className="status-time">{clock || "9:41"}</span><span className="status-icons">{showSignal && <Signal size={14} strokeWidth={2.8}/ >}{showWifi && <Wifi size={14} strokeWidth={2.8}/ >}{showBattery && <span className="battery-icon"><span style={{width: battery + "%"}}></span></span>}</span></div>}
+                  {showStatus && <div className={"screen-status " + (bg.name === "Medianoche" || image ? "status-light" : "")}><span className="status-time">{clock || "9:41"}</span><span className="status-icons">{showSignal && <Signal size={14} strokeWidth={2.8} />}{showWifi && <Wifi size={14} strokeWidth={2.8}/ >}{showBattery && <span className="battery-icon"><span style={{width: battery + "%"}}></span></span>}</span></div>}
                   <div className="dynamic-island"></div>
                 </div>
               </div>
