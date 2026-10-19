@@ -1,0 +1,19 @@
+{
+  "name": "iPhone Mockup Studio",
+  "short_name": "Mockup Studio",
+  "description": "Crea y exporta mockups de iPhone desde tu Android.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f5f7",
+  "theme_color": "#f4f5f7",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
